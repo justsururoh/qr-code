@@ -68,7 +68,7 @@ footer {
     }
 }
 
-@media (max-width: 667px) {
+@media (max-width: 567px) {
     .qr-code {
         margin-top: 3rem;
         margin-left: 10rem;

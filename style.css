@@ -71,8 +71,8 @@ footer {
 @media (max-width: 567px) {
     .qr-code {
         margin-top: 3rem;
-        margin-left: 10rem;
-        width: 60vh;
+        margin-left: 5rem;
+        width: 40vh;
         height: 87vh;
     }
 }

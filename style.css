@@ -59,6 +59,8 @@ footer {
     color: hsl(216, 15%, 48%);
 }
 
+ /* responsive design */
+ 
 @media (max-width: 991px) {
     .qr-code {
         margin-top: 3rem;
@@ -68,12 +70,21 @@ footer {
     }
 }
 
-@media (max-width: 567px) {
+@media (max-width: 467px) {
     .qr-code {
-        margin-top: 3rem;
-        margin-left: 5rem;
-        width: 40vh;
-        height: 87vh;
+    margin-top: 3rem;
+    margin-right: 30.5rem;
+    width: 60vh;
+    height: 87vh;
+    border-radius: 1rem;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+    img {
+    width: 35vh;
+    height: 50vh;
     }
 }
 
